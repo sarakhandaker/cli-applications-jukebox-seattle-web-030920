@@ -13,7 +13,7 @@ songs = [
 
 def run
 puts "Please enter a command:"
-command =gets.strip
+command= gets.strip
   case command
     when "help"
       help
@@ -23,7 +23,6 @@ command =gets.strip
      play(songs)
     when "exit"
      exit_jukebox
-     return
   end 
 end
 
