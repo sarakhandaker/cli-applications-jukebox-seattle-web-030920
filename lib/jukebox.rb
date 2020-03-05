@@ -47,11 +47,10 @@ def play(songs)
   n=gets.strip
   songs.each do |songname|
     if n==songname
-      puts "Playing #{songs[n+1]}"
+      puts "Playing #{n}"
     end
   end
   
-
   if n.to_i-1<=songs.length
     puts "Playing #{songs[n+1]}"
   else
