@@ -51,7 +51,7 @@ def play(songs)
   elsif n.to_i != 0 && n.to_i < songs.length
     j=n.to_i 
     binding.pry
-    puts "Playing #{songs[j+1]}"
+    puts "Playing #{songs[j-1]}"
   else
    puts "Invalid input, please try again"
   end
