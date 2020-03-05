@@ -48,7 +48,7 @@ def play(songs)
   n=gets.strip
   if songs.include?(n)
       puts "Playing #{n}"
-  elsif n== "1"
+  elsef n.to_i
     puts "Playing #{songs[(n.to_i)+1]}"
   else
    puts "Invalid input, please try again"
