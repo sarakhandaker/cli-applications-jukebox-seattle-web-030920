@@ -23,6 +23,7 @@ command =gets.strip
      play(songs)
     when "exit"
      exit_jukebox
+     return
   end 
 end
 
