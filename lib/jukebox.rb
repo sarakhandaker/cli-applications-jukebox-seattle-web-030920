@@ -52,7 +52,7 @@ def play(songs)
   end
   
   if n.to_i- 1<=songs.length
-    puts "Playing #{songs[n+ 1]}"
+    puts "Playing #{songs[n.to_i+ 1]}"
   else
    puts "Invalid input, please try again"
   end
