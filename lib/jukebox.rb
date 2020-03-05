@@ -50,7 +50,6 @@ def play(songs)
       puts "Playing #{n}"
     end
   end
-  
   if n.to_i- 1<=songs.length
     puts "Playing #{songs[n.to_i+1]}"
   else
