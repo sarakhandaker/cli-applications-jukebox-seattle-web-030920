@@ -11,7 +11,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
-def run
+def run (songs)
 puts "Please enter a command:"
 command= gets.strip
   case command
