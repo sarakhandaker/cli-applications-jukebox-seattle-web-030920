@@ -49,7 +49,8 @@ def play(songs)
   if songs.include?(n)
       puts "Playing #{n}"
   elsif n.to_i != 0 && n.to_i < songs.length
-    puts "Playing #{songs[(n.to_i)+1]}"
+    j=n.to_i 
+    puts "Playing #{songs[j+1]}"
   else
    puts "Invalid input, please try again"
   end
