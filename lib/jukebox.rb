@@ -46,7 +46,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   n=gets.strip
-  songs.each do |songname|
+  songs.include?(n)
     if n==songname
       puts "Playing #{n}"
     end
